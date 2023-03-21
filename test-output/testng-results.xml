@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[valid login]]>
+    </line>
+    <line>
+      <![CDATA[invalid login]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-01T22:33:02 IST" name="Default suite" finished-at="2023-02-01T22:33:08 IST" duration-ms="6051">
+    <groups>
+    </groups>
+    <test started-at="2023-02-01T22:33:02 IST" name="Default test" finished-at="2023-02-01T22:33:08 IST" duration-ms="6051">
+      <class name="testPack.ActiTimeTestValidLogin">
+        <test-method signature="method1()[pri:0, instance:testPack.ActiTimeTestValidLogin@48aca48b]" started-at="2023-02-01T22:33:02 IST" name="method1" finished-at="2023-02-01T22:33:06 IST" duration-ms="4493" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[valid login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:testPack.ActiTimeTestValidLogin@48aca48b]" started-at="2023-02-01T22:33:06 IST" name="method2" finished-at="2023-02-01T22:33:08 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[invalid login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- testPack.ActiTimeTestValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
